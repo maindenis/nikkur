@@ -214,22 +214,6 @@ a:active {
     -webkit-tap-highlight-color: transparent;
 }
 
-input {
-
-}
-
-input:focus {
-
-}
-
-textarea {
-
-}
-
-textarea:focus {
-
-}
-
 /*-------------------------------------------*/
 /* ----- REUSABLE COMPONENTS ------ */
 /*-------------------------------------------*/
@@ -259,6 +243,10 @@ textarea:focus {
 
 .inner_page {
     padding-top: 105px;
+}
+
+.visible_767 {
+    display: none;
 }
 
 /*-------------------------------------------*/
@@ -367,7 +355,7 @@ textarea:focus {
     align-items: center;
     justify-content: center;
     padding: 5px 28px;
-    height: 58px;
+    min-height: 58px;
     background: #FFF;
     border: none;
     border-radius: 6px;
@@ -437,15 +425,13 @@ textarea:focus {
 /* ----- Responsive Menu Button ------ */
 
 .respmenubtn {
-    /*display: inline-block;*/
     display: none;
-    vertical-align: top;
     width: 26px;
     height: 26px;
     background: transparent;
     cursor: pointer;
     position: relative;
-    top: 12px;
+    top: 7px;
     z-index: 11;
     border: 1px solid transparent;
     margin-left: 10px;
@@ -455,7 +441,7 @@ textarea:focus {
     display: block;
     width: 24px;
     height: 2px;
-    background: #1565C0;
+    background: #292A2E;
     border-radius: 2px;
     -webkit-border-radius: 2px;
     margin: 0 auto 6px auto;
@@ -490,7 +476,7 @@ textarea:focus {
 }
 
 .respmenubtn:hover span {
-    background: #FD8C04;
+    background: #FF6600;
 }
 
 .respmenubtn.active span {
@@ -498,7 +484,7 @@ textarea:focus {
     width: 30px;
     top: 0;
     left: -2px;
-    background: #FD8C04;
+    background: #FF6600;
 }
 
 .respmenubtn.active span:last-child {
@@ -1239,7 +1225,7 @@ textarea:focus {
 }
 
 .item_3_header > div:nth-child(2) {
-    width: calc(1005 - 57px);
+    width: calc(100% - 57px);
 }
 
 .number {
@@ -1320,14 +1306,9 @@ textarea:focus {
 
 /*-- /Section 2 - Words Page --*/
 
-
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
-
-footer {
-
-}
 
 .footer_section {
     padding: 29px 0 20px 0;
@@ -1586,6 +1567,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    text-align: center;
     min-height: 54px;
     background: rgba(255, 255, 255, 0);
     backdrop-filter: blur(5px);

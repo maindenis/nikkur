@@ -5,49 +5,14 @@ g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).resize(function() {
-
+    bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 });
 
 $(document).scroll(function() {
-
+    bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 });
 
 $(document).ready(function() {
-
-    if( $(".slider").length > 0 ) {
-        $(".slider").not(".slick-initialized").slick({
-            dots: true,
-            arrows: true,
-            // autoplay: true,
-            autoplaySpeed: 4000,
-            speed: 2000,
-            variableWidth: true,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            centerMode: true,
-            appendDots: $(".slider_dots"),
-            appendArrows: $(".slider_arrows"),
-            // fade: true,
-            responsive: [
-                {
-                  breakpoint: 1125,
-                  settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 1
-                  }
-                },
-                // {
-                //   breakpoint: 540,
-                //   settings: {
-                //     slidesToShow: 1,
-                //     slidesToScroll: 1
-                //   }
-                // }
-              ]
-        });
-    }
-
-    // --------------
 
     $(".respmenubtn").click(function(e) {
       e.preventDefault();

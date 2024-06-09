@@ -1,6 +1,592 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1024px) {
+
+/*-- Header --*/
+
+.header_site_templ {
+    padding: 0;
+}
+
+.header_site > div:nth-child(1) {
+    width: 70px;
+}
+
+.header_site > div:nth-child(2) {
+    width: 325px;
+}
+
+.header_site > div:nth-child(3) {
+    width: calc(100% - 395px);
+}
+
+.white_pill {
+    padding: 5px 15px;
+    font-size: 16px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.promo_img_wrapp {
+    top: 107px;
+}
+
+.promo_img {
+    width: 112px;
+    height: 112px;
+    padding: 6px;
+}
+
+.promo_img .inner {
+    width: 100px;
+    height: 100px;
+}
+
+.h1_wrapp {
+    padding: 127px 0 29px 0;
+}
+
+.h1_wrapp .row {
+    padding-left: 160px;
+}
+
+.h1_wrapp h1 {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.breadcrumbs_wrapp {
+    padding: 14px 0 14px 0;
+}
+
+.breadcrumbs {
+    padding-left: 133px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.thumbnail {
+    width: calc(33.33% - 20px);
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 1 - Words Page --*/
+
+.words_page_title {
+    padding-left: 0;
+}
+
+.breadcrumbs_2 {
+    padding-left: 0;
+}
+
+/*-- /Section 1 - Words Page --*/
+
+/*-- Footer --*/
+
+.footer_row_1 > div:nth-child(1) {
+    width: 70px;
+}
+
+.footer_row_1 > div:nth-child(2) {
+    width: 325px;
+}
+
+.footer_row_1 > div:nth-child(3) {
+    width: calc(100% - 395px);
+}
+
+.socials {
+    margin: 0;
+}
+
+.pills_list {
+    justify-content: center;
+}
+
+.pills_list li {
+    width: 33.33%;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 900px) {
+
+/*-- Header --*/
+
+.header_site > div:nth-child(1) {
+    width: 70px;
+    padding: 16px 10px 10px 0;
+}
+
+.header_site > div:nth-child(2) {
+    width: 280px;
+    padding: 15px 10px 10px 10px;
+}
+
+.header_site > div:nth-child(3) {
+    width: calc(100% - 350px);
+}
+
+.btns_inline {
+    margin: 0 -5px;
+}
+
+.btns_inline > div {
+    padding: 5px;
+}
+
+.white_pill i {
+    margin-left: 7px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.h1_wrapp .row {
+    padding-left: 133px;
+}
+
+.breadcrumbs_2 {
+    padding-left: 0;
+}
+
+.promo_img_wrapp .promo_img {
+    left: -19px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.two_cols_header h2 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.two_cols_title h3 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.two_cols_link p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.two_cols_link > div:nth-child(1) {
+    padding: 9px 17px 9px 20px;
+}
+
+.two_cols_link > div:nth-child(2) {
+    width: 50%;
+    padding: 9px 20px 9px 17px;
+}
+
+.two_cols_templ > div:nth-child(1) {
+    width: calc(100% - 250px);
+}
+
+.two_cols_templ > div:nth-child(2) {
+    width: 250px;
+}
+
+.item {
+    margin: 15px 0;
+}
+
+.item h3 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.item p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 1 - Words Page --*/
+
+.text_box_2 {
+    padding: 15px 0 7px 0;
+}
+
+.item_3_header h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.two_cols_words p {
+    font-size: 16px;
+}
+
+.text_box_3 {
+    padding: 10px 0 10px 0;
+}
+
+.text_box_3 p {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+/*-- /Section 1 - Words Page --*/
+
+/*-- Footer --*/
+
+.symbols {
+    margin: 18px -5px;
+}
+
+.symbols li {
+    padding: 5px;
+}
+
+.symbols li a {
+    min-width: 35px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 34px;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.novisible_767 {
+    display: none;
+}
+
+.visible_767 {
+    display: block;
+}
+
+/*-- Header --*/
+
+.header_site > div:nth-child(1) {
+    padding: 4px 10px 6px 0;
+}
+
+.header_site > div:nth-child(2) {
+    width: 0;
+    padding: 0;
+}
+
+.header_site > div:nth-child(3) {
+    width: calc(100% - 70px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.respmenubtn {
+    display: block;
+}
+
+#resp_nav {
+    display: none;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    width: 100%;
+    padding: 0 15px;
+    height: calc(100vh - 64px);
+    z-index: 10;
+    background: rgba(255, 255, 255, .8);
+}
+
+.search_form {
+    max-width: 480px;
+    margin: 20px auto;
+}
+
+.btns_inline {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.h1_wrapp {
+    padding: 90px 0 29px 0;
+}
+
+.promo_img_wrapp {
+    top: 77px;
+    left: -20px;
+}
+
+.promo_img_wrapp .promo_img {
+    left: 0px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.two_cols_templ > div:nth-child(1),
+.two_cols_templ > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.thumbnail {
+    width: calc(50% - 20px);
+}
+
+.thumbnail .img_box {
+    height: 190px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 1 - Words Page --*/
+
+.inner_page {
+    padding-top: 47px;
+}
+
+/*-- /Section 1 - Words Page --*/
+
+/*-- Footer --*/
+
+.footer_row_2 > div:nth-child(1) {
+    width: calc(100% - 190px);
+}
+
+.footer_row_2 > div:nth-child(2) {
+    width: 190px;
+}
+
+.search_form_2 {
+    margin: 0 auto;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 700px) {
+
+/*-- Footer --*/
+
+.footer_row_1 > div:nth-child(2) {
+    width: 280px;
+}
+
+.footer_row_1 > div:nth-child(3) {
+    width: calc(100% - 350px);
+}
+
+.footer_row_2 > div:nth-child(1),
+.footer_row_2 > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.links li {
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.pills_list li {
+    width: 50%;
+}
+
+/*-- /Footer --*/
+
+}
 
 
+@media only screen and (max-width: 600px) {
+
+.row {
+    padding: 0 15px;
+}
+
+/*-- Header --*/
+
+.h1_wrapp {
+    min-height: 184px;
+}
+
+.h1_wrapp h1 {
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.promo_img_wrapp {
+    top: 66px;
+}
+
+.breadcrumbs {
+    padding-left: 0;
+}
+
+/*-- /Header --*/
+
+/*-- Section 3 - Main Page --*/
+
+.thumbnails_wrapp {
+    margin: 0 -15px 20px -15px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_row_1 {
+    justify-content: center;
+}
+
+.footer_row_1 > div:nth-child(1) {
+    width: 70px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.footer_row_1 > div:nth-child(2) {
+    width: 100%;
+    padding: 5px 0;
+}
+
+.footer_row_1 > div:nth-child(3) {
+    width: 100%;
+    padding: 5px 0;
+}
+
+.socials {
+    justify-content: center;
+}
+
+.symbols {
+    margin: 9px -5px;
+    justify-content: center;
+}
+
+.links {
+    justify-content: center;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 480px) {
+
+/*-- Section 1 - Main Page --*/
+
+.h1_wrapp h1 {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.two_cols_header > div:nth-child(1) {
+    padding: 10px 10px 10px 10px;
+}
+
+.two_cols_header > div:nth-child(2) {
+    padding: 10px 10px 10px 10px;
+}
+
+.two_cols_header h2 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.two_cols_title > div:nth-child(1) {
+    padding: 10px 10px 10px 10px;
+}
+
+.two_cols_title > div:nth-child(2) {
+    padding: 10px 10px 10px 10px;
+}
+
+.two_cols_link > div:nth-child(1) {
+    padding: 9px 10px 9px 10px;
+}
+
+.two_cols_link > div:nth-child(2) {
+    padding: 9px 10px 9px 10px;
+}
+
+.two_cols_link p {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.text_box p {
+    font-size: 15px;
+    line-height: 19px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 1 - Words Page --*/
+
+.two_cols_words {
+    margin: 5px -15px;
+    padding: 10px 5px;
+}
+
+.two_cols_words p {
+    font-size: 15px;
+}
+
+/*-- /Section 1 - Words Page --*/
+
+/*-- Footer --*/
+
+.pills_list li {
+    width: 100%;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 380px) {
+
+/*-- Section 3 - Main Page --*/
+
+.thumbnails_title h3 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.thumbnails {
+    margin: 16px -10px 8px -10px;
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+/*-- /Section 3 - Main Page --*/
 
 }
 
