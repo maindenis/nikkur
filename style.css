@@ -257,6 +257,10 @@ textarea:focus {
     text-align: left;
 }
 
+.inner_page {
+    padding-top: 105px;
+}
+
 /*-------------------------------------------*/
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
@@ -272,6 +276,7 @@ textarea:focus {
 .header_site_templ {
     width: 100%;
     background: rgba(255, 255, 255, .8);
+    box-shadow: 0 2px 14px rgba(199, 191, 185, .25);
     padding: 6px 0 5px 0;
 }
 
@@ -1160,6 +1165,162 @@ textarea:focus {
 
 /*-- /Section 3 - Main Page --*/
 
+/*-- Section 1 - Words Page --*/
+
+.words_page_title {
+    padding-left: 7px;
+}
+
+.h1_inner_wrapp {
+    padding: 22px 0 16px 0;
+}
+
+.symbols.symbols_2 {
+    margin: 0 -2px;
+}
+
+.symbols.symbols_2 li {
+    padding: 2px;
+}
+
+.symbols.symbols_2 li a {
+    backdrop-filter: blur(10px);
+    min-width: 40px;
+    height: 40px;
+    line-height: 39px;
+}
+
+.breadcrumbs_2 {
+    margin: 29px -9px 0 -9px;
+    padding-left: 0;
+}
+
+/*-- /Section 1 - Words Page --*/
+
+/*-- Section 2 - Words Page --*/
+
+.sect_2_mp {
+    padding-top: 1px;
+}
+
+.inner_title h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #292A2E;
+}
+
+.text_box_2 {
+    padding: 34px 0 12px 0;
+}
+
+.text_box_2 p {
+    padding: 4px 0;
+    font-size: 18px;
+    line-height: 22px;
+    color: #292A2E;
+}
+
+.items_3_wrapp {
+    padding-bottom: 10px;
+}
+
+.item_3 {
+    padding: 18px 0 16px 0;
+}
+
+.item_3_header {
+    display: flex;
+    padding: 5px 0;
+}
+
+.item_3_header > div:nth-child(1) {
+    width: 57px;
+}
+
+.item_3_header > div:nth-child(2) {
+    width: calc(1005 - 57px);
+}
+
+.number {
+    width: 36px;
+    height: 36px;
+    background: #FFD9BF;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.number p {
+    font-size: 20px;
+    line-height: 35px;
+    color: #292A2E;
+}
+
+.item_3_header h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292A2E;
+}
+
+.item_3_title {
+    padding: 7px 0;
+}
+
+.item_3_title h3 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9C9FA9;
+}
+
+.two_cols_words {
+    display: flex;
+    background: #FFF4EC;
+    border-radius: 6px;
+    margin: 5px 0;
+    padding: 10px 10px 8px 10px;
+}
+
+.two_cols_words > div:nth-child(1) {
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+.two_cols_words > div:nth-child(2) {
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+.two_cols_words p {
+    font-size: 18px;
+    line-height: 140%;
+    color: #292A2E;  
+}
+
+.texts_box_3_wrapp {
+    padding-bottom: 10px;
+}
+
+.text_box_3 {
+    padding: 20px 0 20px 0;
+}
+
+.text_box_3 h3 {
+    padding: 10px 0 14px 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292A2E;
+}
+
+.text_box_3 p {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+/*-- /Section 2 - Words Page --*/
+
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
@@ -1362,10 +1523,6 @@ footer {
     background: rgba(255, 102, 0, .5);
 }
 
-.links {
-
-}
-
 .links li {
     padding: 26px 0;
     text-align: right;
@@ -1412,10 +1569,6 @@ footer {
 
 .icon_link img {
     margin-left: 20px;
-}
-
-.footer_row_3 {
-
 }
 
 .pills_list {
